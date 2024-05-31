@@ -26,6 +26,7 @@ public class App02HelloWorldSpring {
             System.out.println(context.getBean("person3Parameters"));
             System.out.println(context.getBean("person4Parameters"));
 
+            // print all bean methods present in the spring context
             Arrays.stream(context.getBeanDefinitionNames()).forEach(System.out::println);
         }
     }

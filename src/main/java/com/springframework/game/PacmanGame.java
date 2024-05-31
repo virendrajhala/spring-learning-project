@@ -1,6 +1,11 @@
 package com.springframework.game;
 
-public class PacmanGame implements GamingConsole{
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
+
+@Component
+@Primary
+public class PacmanGame implements GamingConsole {
 
     public void up(){
         System.out.println(PacmanGame.class.getName()+" Jump");

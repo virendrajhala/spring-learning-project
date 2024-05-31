@@ -1,6 +1,11 @@
 package com.springframework.game;
 
-public class SuperContraGame implements GamingConsole{
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+@Qualifier("SuperContraGameQualifier")
+@Component
+public class SuperContraGame implements GamingConsole {
 
     public void up(){
         System.out.println(SuperContraGame.class.getName()+" Jump");

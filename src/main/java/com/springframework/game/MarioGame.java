@@ -1,6 +1,12 @@
 package com.springframework.game;
 
-public class MarioGame implements GamingConsole{
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
+
+@Component("marioGame")
+@Qualifier("marioGameQualifier")
+public class MarioGame implements GamingConsole {
 
     public void up(){
         System.out.println(MarioGame.class.getName()+" Jump");
