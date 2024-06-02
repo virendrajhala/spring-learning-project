@@ -1,4 +1,4 @@
-package com.springframework.fielddependencyInjection;
+package com.springframework.springexercise.fielddependencyinjection;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
