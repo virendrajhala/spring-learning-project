@@ -1,4 +1,4 @@
-package com.springframework.springexercise.di0;
+package com.springframework.springexercise.example0;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
